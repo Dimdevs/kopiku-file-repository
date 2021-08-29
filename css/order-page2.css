@@ -1,0 +1,56 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav */
+.navbar {
+    background-color: #FFC7374D;
+    height: 70px;
+}
+/* close navbar */
+
+/* langkah */
+.text-after-title {
+    color: #c4c4c4;
+}
+/* Close langkah */
+
+/* detail */
+.side-left {
+    border-right: solid #c4c4c4 1px;
+}
+.answer {
+    font-weight: bold;
+}
+.bawahan {
+    margin-left: 89px;
+    margin-bottom: 0;
+}
+
+.form-label {
+    font-size: 16px;
+}
+.form-control {
+    border: none;
+    background-color: #F5F6F8;
+    width: 300px;
+    font-size: 14px;
+    height: 45px;
+}
+.form-check-label {
+    font-size: 14px;
+    color: #888888;
+}
+/* close detail */
+
+/* input btn */
+.btn {
+     color: white;
+     width: 300px;
+     box-shadow: yellow 0.5px 0.5px 5px;
+ }
+ #button {
+      background-color: #F5F6F8;
+      color: #B0B0B0;
+      box-shadow: none;
+ }

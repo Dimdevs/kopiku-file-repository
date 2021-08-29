@@ -1,0 +1,22 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav */
+.navbar {
+    background-color: #FFC7374D;
+    height: 70px;
+}
+/* close navbar */
+
+/* langkah */
+.text-after-title {
+    color: #c4c4c4;
+}
+/* Close langkah */
+
+.btn {
+     color: white;
+     width: 300px;
+     box-shadow: yellow 0.5px 0.5px 5px;
+ }

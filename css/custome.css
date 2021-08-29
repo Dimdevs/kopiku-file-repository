@@ -1,0 +1,156 @@
+
+#menu {
+    margin-bottom: 60px;
+    background-color: white;
+}
+
+#about {
+background-color: white;
+}
+
+
+#top-nav {
+    transition: 0.5s;
+}
+
+.text-heading-kopiku {
+    color: #575757;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.span-color-kopi{
+    color: #FFC737;
+}   
+
+.body-card-category {
+    padding: 5px;
+}
+
+/* coffe */
+.text-font-category-1 {
+    margin-bottom: 0;
+    font-weight: 400;
+    margin-left: -120px;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: -1px;
+    color: #3A3A3A;
+}
+
+.text-font-category-2 {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: -1px;
+    color: #BABABA;
+    text-decoration: none;
+    margin-left: -90px;
+}
+
+/* bread */
+.text-font-category-bread-1 {
+    margin-bottom: 0;
+    font-weight: 400;
+    margin-left: -81px;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: -1px;
+    color: #3A3A3A;
+}
+
+.text-font-category-bread-2 {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 13px;
+    color: #BABABA;
+    text-decoration: none;
+    margin-left: -90px;
+}
+
+/* food */
+.text-font-category-food-1 {
+    margin-bottom: 0;
+    font-weight: 400;
+    margin-left: -81px;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: -1px;
+    color: #3A3A3A;
+}
+
+.text-font-category-food-2 {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 13px;
+    color: #BABABA;
+    text-decoration: none;
+    margin-left: -90px;
+}
+
+.btn-category-product {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #E9E9E9;
+}
+
+.text-name-product {
+    font-size: 13px;
+    color: #3A3A3A;
+    margin-bottom: 0;
+    font-weight: 500;
+    
+}
+
+.price-product-kopiku {
+    color: #0E9803;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price-product-spans {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: -1px;
+    margin-bottom: 0;
+}
+
+.price-product-diskon {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.btn-buy-product-kopiku {
+    width: 72px;
+    height: 30px;
+    background-color: #FFC737;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 100px;
+    margin-left: -6px;
+}
+
+.label-diskon {
+    margin-top: -161px; 
+    margin-left: 160px; 
+    background: #FFD465;
+    box-shadow: 0px 3px 8px rgba(255, 199, 55, 0.6);
+    border-radius: 0px 5px; 
+    color: white; 
+    margin-bottom: 130px; 
+    text-align: center; 
+    line-height: 30px; 
+    width: 99px; 
+    height: 30px; 
+    font-size: 13px;
+}
+
+.diskon-product {
+    color: #FD0606; 
+    font-weight: bold;
+}

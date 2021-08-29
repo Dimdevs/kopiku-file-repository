@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/custome.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css"> -->
+  <title>Kopiku</title>
+</head>
+
+<body id="home">
+  <!-- open page navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="top-nav" style="background-color:transparent;">
+    <div class="container">
+      <a class="navbar-brand navbar-logo" href="#"><img src="./img/logo/kopiku..png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav navbar-navss">
+          <li class="nav-item">
+            <a class="nav-custome active-navbar" aria-current="page" href="#home">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-custome" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-custome" href="#about">Tetang kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-custome" href="#testimoni">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-custome" href="#contact">Kontak Kami</a>
+          </li>
+        </ul>
+        <li class="nav-item">
+          <a class="nav-custome" href="./history.html">Hallo, Septio &nbsp;<img src="./img/img-small/profile.png"
+              class="img-fluid" alt="" /></a>
+        </li>
+      </div>
+    </div>
+  </nav>
+  <!-- close page navbar -->
+
+  <!-- open page banner hero -->
+  <div class="jumbotron jumbotron-fluid img-banner-hero">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12 col-xs-12">
+          <h1 class="head-jumbroton-top text-center">
+            Selamat datang di kopiku
+          </h1>
+          <p class="text-jumbroton-top text-center">
+            Temani Waktu Kerjamu dengan menikmati Kopi yang penuh sensasi dan
+            Berkualitas
+            <br />
+            <span class="text-Premium">Premium</span>
+          </p>
+          <button class="btn-click-Me-cta">Click Me</button>
+          <div class="container all-banner">
+            <div class="row">
+              <div class="col-md-12">
+                <img src="./img/img-banner/coffe-hand-2 1.png" style="margin-top: 95px;" class="img-hand-banner-1"
+                  alt="" />
+                <img src="./img//img-banner/coffe-hand 1.png" style="margin-top: 65px;" class="img-hand-banner-2"
+                  alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./img/img-icon/Arrow-back-to-top.svg"
+      alt=""></button>
+
+  <!-- close page banner hero -->
+
+  <!-- open page category product -->
+  <div class="container">
+    <div class="row mt-5 mb-5">
+      <h3 class="text-heading-kopiku mb-3">Kategori menu <span class="span-color-kopi">kopiku.</span></h3>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="owl-carousel owl-theme owl-category">
+            <div class="item btn-category-product">
+              <button class="btn btn-category-product">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="./img/img-small/coffe-category.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-9 text-left">
+                    <p class="text-font-category-1">Kopi dan tea</p>
+                    <p class="text-font-category-2">Minuman hangat</p>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div class="item btn-category-product">
+              <button class="btn btn-category-product">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="./img/img-small/coffe-category.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-9 text-left">
+                    <p class="text-font-category-bread-1">Roti, dan cemilan</p>
+                    <p class="text-font-category-bread-2">Makanan manis</p>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div class="item btn-category-product">
+              <button class="btn btn-category-product">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="./img/img-small/coffe-category.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-9 text-left">
+                    <p class="text-font-category-food-1">Makanan</p>
+                    <p class="text-font-category-food-2">Makanan berat</p>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div class="item btn-category-product">
+              <button class="btn btn-category-product">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="./img/img-small/coffe-category.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-9 text-left">
+                    <p class="text-font-category-1">Milkshake</p>
+                    <p class="text-font-category-2">Makanan dingin</p>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div class="item btn-category-product">
+              <button class="btn btn-category-product">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="./img/img-small/coffe-category.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-9 text-left">
+                    <p class="text-font-category-1">Kopi dan tea</p>
+                    <p class="text-font-category-2">Minuman hangat</p>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- close page category product -->
+
+  <!-- open page card product -->
+  <hr id="menu" style="background-color: white;">
+  <div class="container">
+    <!-- product - one -->
+    <div class="row mb-5">
+      <h3 class="text-heading-kopiku mb-3">Rekomendasi baru <span class="span-color-kopi">kopiku.</span></h3>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-1.png" alt="">
+                  <div class="label-diskon">
+                    <p>Hemat <span class="diskon-product">50%</span></p>
+                  </div>
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-2.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-3.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-4.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-5.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- product - tw0 -->
+    <div class="row mb-5">
+      <h3 class="text-heading-kopiku mb-3">Menu baru <span class="span-color-kopi">kopiku.</span></h3>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-5.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-6.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-7.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-8.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-9.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- product - tree -->
+    <div class="row mb-5">
+      <h3 class="text-heading-kopiku mb-3">Menu <span class="span-color-kopi">kopiku.</span></h3>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-10.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                    border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-11.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                    border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-12.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                    border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-9.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-12">
+                <div class="card" style="box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                    border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.1); width: 270px; height: 248px;">
+                  <img class="card-img-top" src="./img/product/img-product-8.png" alt="">
+                  <div class="card-body" style="padding-left: 20px; padding-right: 20px; padding-top:  0px;">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="text-name-product">Kopi tugoh sumatera</p>
+                        <p class="price-product-diskon">Rp. 15.000,-</p>
+                        <p class="price-product-kopiku"><span class="price-product-spans">Rp</span>. 25.000,-</p>
+                      </div>
+                      <div class="col-md-4">
+                        <center> <img src="./img/img-small/rating.png" style="width: 39px; margin-bottom: 6px;" alt="">
+                        </center>
+                        <button type="submit" class="btn btn-buy-product-kopiku">beli</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- close page card product -->
+
+
+  <hr class="mb-3 about" id="about" style="background-color: white;">
+  <!-- open page about -->
+  <div class="jumbotron jumbotron-fluid background-about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 margin-about">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <img src="./img/img-banner/vid-tentang.png" class="img-fluid img-about" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <img src="./img/img-small/kopiku-little.png" alt="" />
+              <h5 class="title-about">
+                Tentang <span class="text-head-span-about">kopiku.</span>
+              </h5>
+              <p class="text-paragraf-about">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sapien, amet a mattis justo, eu sagittis. Id eu, adipiscing
+                arcu mauris dictumst amet semper egestas. Adipiscing suscipit
+                sed diam nam in lacinia ullamcorper intveger metus. Risus
+              </p>
+              <p class="text-paragraf-about">
+                turpis viverra egestas congue. Mauris laoreet suscipit
+                consequat malesuada convallis tincidunt. At vel urna, pharetra
+                orci. Enim arcu tellus suspendisse semper vitae. Lectus augue
+                condimentum eget malesuada fusce et. Eget turpis turpis
+                volutpat nullam eAt vel urna,
+              </p>
+              <p class="text-paragraf-about">
+                pharetra orci. Enim arcu tellus suspendisse semper vitae.
+                Lectus augue condimentum eget malesuada fusce et. Eget turpis
+                turpis volutpat nullam e
+              </p>
+              <button type="submit" class="btn-detail-about">
+                Detail kami <img src="./img/img-small/Arrow 1.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- close page about -->
+
+  <!-- open page testimonials -->
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="owl-carousel owl-testimonials owl-theme background-testimonials">
+            <div class="item">
+              <div class="card card-testimonials">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="./img/img-testimonials/vid-testi-1.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <h4 class="name-text-testimonials">Tathi alexzeva</h4>
+                    <p class="paragraf-testimonials">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis dui
+                      amet mi amet, justo. Eu, egestas sit egestas
+                      facilisis. Aliquam faucibus et a facilisi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card card-testimonials">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="./img/img-testimonials/vid-testi-1.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <h4 class="name-text-testimonials">Tathi alexzeva</h4>
+                    <p class="paragraf-testimonials">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis dui
+                      amet mi amet, justo. Eu, egestas sit egestas
+                      facilisis. Aliquam faucibus et a facilisi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card card-testimonials">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="./img/img-testimonials/vid-testi-1.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <h4 class="name-text-testimonials">Tathi alexzeva</h4>
+                    <p class="paragraf-testimonials">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis dui
+                      amet mi amet, justo. Eu, egestas sit egestas
+                      facilisis. Aliquam faucibus et a facilisi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="./img/img-testimonials/vid-testi-1.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <h4 class="name-text-testimonials">Tathi alexzeva</h4>
+                    <p class="paragraf-testimonials">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis dui
+                      amet mi amet, justo. Eu, egestas sit egestas
+                      facilisis. Aliquam faucibus et a facilisi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- close page testimonials -->
+
+  <!-- open page contact -->
+  <hr class="mb-5 contact" id="contact" style="background-color: white;">
+
+  <div class="jumbotron jumbotron-fluid background-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6 top-margins-contact">
+              <div class="row">
+                <div class="col-md-12">
+                  <img src="./img/img-small/kopiku-logo-contact.png" alt="" />
+                </div>
+                <div class="col-md-12">
+                  <h4 class="title-head">
+                    Kontak <span class="title-span">kopiku.</span>
+                  </h4>
+                </div>
+                <div class="col">
+                  <div class="row">
+                    <p class="text-paragraf-contact">
+                      <img src="./img/img-icon/google-maps 1.svg" alt="" />&nbsp &nbsp;Bogor, Jawa Barat, Indonesia
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <p class="text-paragraf-contact">
+                    <img src="./img/img-icon/phone 1.svg" alt="" />&nbsp
+                    &nbsp;+62 8834 9384 928
+                  </p>
+                </div>
+                <div class="col-md-12">
+                  <p class="text-paragraf-contact">
+                    <img src="./img/img-icon/email (2) 1.svg" alt="" />&nbsp
+                    &nbsp;kopiku.17@gmail.com
+                  </p>
+                </div>
+                <div class="col-md-12">
+                  <h4 class="title-head">
+                    Sosial media <span class="title-span">kopiku.</span>
+                  </h4>
+                </div>
+                <div class="col-md-4">
+                  <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 text-center mb-3">
+                      <img src="./img/img-icon/facebook.svg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 text-center mb-3">
+                      <img src="./img/img-icon/instagram.svg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 text-center mb-3">
+                      <img src="./img/img-icon/twitter.svg" class="img-fluid" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 margin-iframe-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3963.6258189072105!2d106.6717321!3d-6.5688211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69db9fae08d951%3A0x3fbe3a99ba2e371!2sSMPN%202%20Cibungbulang!5e0!3m2!1sid!2sid!4v1628807003227!5m2!1sid!2sid"
+                style="border: 0; width: 555.92px; height: 459px" class="img-fluid" allowfullscreen=""
+                loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- close page contact -->
+
+  <!-- open page footer -->
+  <section id="footer">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-2 mt-5">
+          <img src="./img/logo/kopiku..png" alt="" />
+        </div>
+        <div class="col-md-2 text-footer mt-5">
+          <h5 class="title-footer">Service</h5>
+
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+        </div>
+        <div class="col-md-2 text-footer mt-5">
+          <h5 class="title-footer">Service</h5>
+
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+        </div>
+        <div class="col-md-2 text-footer mt-5">
+          <h5 class="title-footer">Service</h5>
+
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+        </div>
+        <div class="col-md-4 text-footer mt-5">
+          <h5 class="title-footer">Subscribe to Newsletter</h5>
+
+          <div class="input-group mt-4">
+            <input type="text" class="form-control" placeholder="Masukan Email Anda" aria-label="Recipient's username"
+              aria-describedby="button-addon2" />
+            <button class="button btn-outline-secondary" type="button" id="button-addon2">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- close page footer -->
+
+
+
+
+
+  <!-- open script js -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/carousel-testi-card.js"></script>
+  <script src="./js/carousel1.js"></script>
+  <script src="./js/carousel2.js"></script>
+  <script src="./js/back-to-top.js"></script>
+  <script src="./js/navbar-scrol.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/navScroll.js"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <!-- close script js -->
+</body>
+
+</html>

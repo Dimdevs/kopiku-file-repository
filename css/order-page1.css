@@ -1,0 +1,91 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav */
+.navbar {
+    background-color: #FFC7374D;
+    height: 70px;
+}
+/* close navbar */
+
+/* langkah */
+.text-after-title {
+    color: #c4c4c4;
+}
+/* langkah */
+
+/* detail */
+.img-detail {
+    border-right: 1px #c4c4c4 solid;
+}
+.title-pesanan {
+    font-size: 18px;
+    padding-left: 20px;
+}
+.harga-satuan {
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 40px;
+}
+.mata-uang {
+    color: #0E9803;
+    font-size: 13px;
+}
+.total {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-label {
+    font-size: 16px;
+}
+.form-control {
+    border: none;
+    background-color: #F5F6F8;
+    width: 300px;
+    font-size: 14px;
+    height: 45px;
+}
+.form-check-label {
+    font-size: 14px;
+    color: #888888;
+}
+ /* input btn */
+ .btn {
+     color: white;
+     width: 300px;
+     box-shadow: yellow 0.5px 0.5px 5px;
+ }
+ #button {
+      background-color: #F5F6F8;
+      color: #B0B0B0;
+      box-shadow: none;
+ }
+ /*  */
+
+ /* responsive */
+ @media (min-width: 320px) and (max-width: 424px) {
+     .harga-satuan {
+         float: left;
+         padding: 0;
+     }
+ }
+
+ @media (min-width: 425px) and (max-width: 767px) {
+     .harga-satuan {
+         padding: 0;
+     }
+ }
+
+ @media (min-width: 768px) and (max-width: 1023px) {
+     .img-detail {
+         padding-top: 90px;
+     }
+ }
+
+ @media (min-width: 1024px) {
+     .img-detail {
+         padding-top: 25px;
+     }
+ }

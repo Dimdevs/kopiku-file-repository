@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="./css/history.css">
+  </head>
+  <body>
+
+     <nav class="navbar navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo/kopiku..png" alt=""/>
+        </a>
+      </div>
+    </nav>
+    
+    <div class="container mt-3">
+      <div class="col-md-12">
+        <a href="./index.html" class="beranda">Beranda</a> <span class="fw-bold">/</span> <a href="" class="setting"> Tentang Kami</a>
+      </div>
+    </div>
+
+    <div class="container text-center mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <h5 class="title-profil mt-3">Profile Anda</h5>
+
+                    <img src="./img/logo/Group 49.png" class="img-fluid img-profil mt-2 mb-3" width="120px" 
+                    alt="">
+
+                    <input type="email" class="form-control mb-3 mt-3" id="exampleFormControlInput1" placeholder="Nama">
+                    <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Email">
+                    <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="No Telepon">
+
+                    <select class="form-select mb-3" id="validationCustom04" required>
+                      <option selected disabled value="">Jenis kelamin</option>
+                      <option>Pria</option>
+                      <option>Wanita</option>
+                      <option>Rahasia</option>
+                  </select>
+
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="tgl" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="input-group-text"><img src="./img/logo/Vector.svg" alt=""></span>
+                  </div>
+
+                   <textarea type="text" class="form-control mb-3" aria-label="Username" aria-describedby="basic-addon1"  placeholder="Alamat" ></textarea>    
+                   <input type="password" class="form-control mb-3" id="inputPassword" placeholder="Password">    
+
+                   <a href="./order-page2.html" class="btn checkout btn-warning mb-5">Checkout</a>   
+                </div>
+            </div>
+            <div class="col-md-8 all-table">
+              <div class="col-12">
+              <div class="pembungkus-table">
+              <table class="table text-start">
+                <h5 class="title-profil float-start mb-3 mt-3">Table Status Order</h5>
+                  <thead>
+                    <tr class="striped-white">
+                      <th scope="col" class="title-table">Kode Order</th>
+                      <th scope="col" class="title-table">Produk</th>
+                      <th scope="col" class="title-table">Harga</th>
+                      <th scope="col" class="title-table">Kuantitas</th>
+                      <th scope="col" class="title-table">Total</th>
+                      <th scope="col" class="title-table">Status</th>
+                      <th scope="col" class="title-table">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="first">INV01</td>
+                      <td class="second">Coffe Expreso</td>
+                      <td>Rp. 17.000</td>
+                      <td>1</td>
+                      <td>Rp. 17.000</td>
+                      <td><button type="button" class="btn btn-success btn-sm"><p class="text-btn">Proses</p></button></td>
+                      <td><a href="">Detail</a></td>
+                    </tr>
+                    <tr class="striped-white">
+                      <td class="first">INV01</td>
+                      <td class="second">Coffe Jawa</td>
+                      <td>Rp. 17.000</td>
+                      <td>2</td>
+                      <td>Rp. 17.000</td>
+                      <td><button type="button" class="btn btn-warning btn-sm"><p class="text-btn">Sukses</p></button></td>
+                      <td><a href="">Detail</a></td>
+                    </tr>
+                    <tr>
+                      <td class="first">INV01</td>
+                      <td class="second">Cappuchino</td>
+                      <td>Rp. 17.000</td>
+                      <td>3</td>
+                      <td>Rp. 17.000</td>
+                      <td><button type="button" class="btn btn-danger btn-sm"><p class="text-btn">Gagal</p></button></td>
+                      <td><a href="">Detail</a></td>
+                    </tr>
+                    <tr class="striped-white">
+                      <td class="first">INV01</td>
+                      <td class="second">Cappuchino Drink</td>
+                      <td>Rp. 17.000</td>
+                      <td>3</td>
+                      <td>Rp. 17.000</td>
+                      <td><button type="button" class="btn btn-secondary btn-sm"><p class="text-btn2">Pending</p></button></td>
+                      <td><a href="">Detail</a></td>
+                    </tr>
+                    <tr class="">
+                      <td class="first">INV01</td>
+                      <td class="second">Thai Tea</td>
+                      <td>Rp. 17.000</td>
+                      <td>3</td>
+                      <td>Rp. 17.000</td>
+                      <td><button type="button" class="btn btn-secondary btn-sm"><p class="text-btn2">Pending</p></button></td>
+                      <td><a href="">Detail</a></td>
+                    </tr>
+                     <tr class="striped-white">
+                      <td class="first">INV01</td>
+                      <td class="second">Coffe Jawa</td>
+                      <td>Rp. 17.000</td>
+                      <td>2</td>
+                      <td>Rp. 17.000</td>
+                      <td><button type="button" class="btn btn-warning btn-sm"><p class="text-btn">Sukses</p></button></td>
+                      <td><a href="">Detail</a></td>
+                    </tr>
+                    <tr>
+                      <td class="first">INV01</td>
+                      <td class="second">Cappuchino</td>
+                      <td>Rp. 17.000</td>
+                      <td>3</td>
+                      <td>Rp. 17.000</td>
+                      <td><button type="button" class="btn btn-danger btn-sm"><p class="text-btn">Gagal</p></button></td>
+                      <td><a href="">Detail</a></td>
+                    </tr>
+                    <tr class="striped-white">
+                      <td class="first">INV01</td>
+                      <td class="second">Cappuchino Drink</td>
+                      <td>Rp. 17.000</td>
+                      <td>3</td>
+                      <td>Rp. 17.000</td>
+                      <td><button type="button" class="btn btn-secondary btn-sm"><p class="text-btn2">Pending</p></button></td>
+                      <td><a href="">Detail</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <section id="footer">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-2 mt-5">
+          <img src="./img/logo/kopiku..png" alt="">
+        </div>
+        <div class="col-md-2 text-footer mt-5">
+          <h5 class="title-footer">Service</h5>
+
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+        </div>
+        <div class="col-md-2 text-footer mt-5">
+          <h5 class="title-footer">Service</h5>
+
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+        </div>
+        <div class="col-md-2 text-footer mt-5">
+          <h5 class="title-footer">Service</h5>
+
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+          <p class="kata-footer">Lorem, ipsum.</p>
+        </div>
+        <div class="col-md-4 text-footer mt-5">
+          <h5 class="title-footer">Subscribe to Newsletter</h5>
+
+          <div class="input-group mt-4">
+             <input type="text" class="form-control2" placeholder="Masukan Email Anda" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <button class="button btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
